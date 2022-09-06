@@ -129,7 +129,7 @@ class PNGParser:
             f.write(new_file)
 
 if __name__ == "__main__":
-    # Yes, I will clean this mess up and add a proper CLI-interface.
+    # Yes, I will clean this mess up and add a proper CLI.
 
     if len(sys.argv) < 2:
         print("Usage: ./png_stego.py file_to_be_encoded png_file_to_modify output_file_name")
